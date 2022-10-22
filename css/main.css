@@ -1,0 +1,36 @@
+/* Start Global Rules */
+
+:root {
+    --main-color: #2196f3;
+    --main-color-alt: #1787e0;
+
+}
+
+
+
+* {
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Cairo', sans-serif;
+}
+
+
+ul {
+    list-style-type: none;
+
+}
+
+
+/* End Global Rules */
