@@ -32,5 +32,86 @@ ul {
 
 }
 
+a {
+    text-decoration: none;
+}
+
 
 /* End Global Rules */
+
+
+
+/* Header Styling */
+
+.main-header {
+    background-color: white;
+    box-shadow: 0 0 10px #ddd;
+    /* For mega menu positioing */
+    position: relative;
+}
+
+
+.main-header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    /* For mega menu positioing */
+    position: relative;
+}
+
+
+.main-header .logo {
+    color: var(--main-color);
+    font-size: 2.6rem;
+    font-weight: bold;
+    height: 7.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media screen and (max-width:767px) {
+    .main-header .logo {
+        width: 100%;
+    }
+}
+
+
+.main-header .main-nav {
+    display: flex;
+}
+
+
+@media screen and (max-width:767px) {
+    .main-header .main-nav {
+        margin: auto;
+    }
+}
+
+.main-header .main-nav>li>a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 7.2rem;
+    position: relative;
+    color: black;
+
+    padding: 0 3rem;
+
+    transition: all 0.3s;
+    font-size: 1.6rem;
+
+}
+
+@media screen and (max-width:767px) {
+    .main-header .main-nav>li>a {
+        font-size: 1.4rem;
+        padding: 1rem;
+    }
+}
+
+.main-header .main-nav>li>a:hover {
+    color: var(--main-color);
+}
